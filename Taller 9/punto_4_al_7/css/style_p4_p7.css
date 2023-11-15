@@ -1,0 +1,108 @@
+/* Punto 4 */
+.punto_4_azul {
+    color: blue;
+    text-align: center;
+}
+
+.punto_4_rojo {
+    color: red;
+    text-align: center;
+}
+
+.punto_4_rosado{
+    color: pink;
+    text-align: center;
+}
+
+.punto_4_amarillo{
+    color: yellow;
+    text-align: center;
+}
+
+.punto_4_verde{
+    color: green;
+    text-align: center;
+}
+
+/* para señalar los puntos */
+table,th,td{
+    border: 1px solid black;
+    width: 100%;
+}
+
+/* Punto 5 */
+.punto_5_verde{
+    color: green;
+    
+}
+
+.punto_5_raya{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.letra_grande{
+    font-size:50px;
+}
+
+.punto_5_azul{
+    color: blue;
+    font-size: 20px;
+}
+
+.punto_5_rojo{
+    color: red;
+    font-size: 20px;
+}
+
+/* Punto 6 */
+.punto_6_negro{
+    text-align: center;
+}
+
+h2.punto_6_amarillo{
+
+    text-align: center;
+}
+
+.punto_6_amarillo{
+    color: yellow;
+}
+
+h2.punto_6_morado{
+    text-align: center;
+}
+
+.punto_6_morado{
+    color:blueviolet;
+    
+}
+
+/* Punto 7 */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9530a5;
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #0b168e;
+  }
+
+ 

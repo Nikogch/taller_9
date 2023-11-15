@@ -1,0 +1,110 @@
+html {
+ box-sizing: border-box;
+}
+*, *:before, *:after {
+ box-sizing: inherit;
+}
+
+/* cambia el tipo de letra del texto del cuerpo*/
+body {
+ font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+ margin: 0 3%;
+}
+h1 {
+ font-size: 1.8em;
+ margin: .9em 0 0 0;
+}
+h2 {
+ font-size: 1.5em;
+ margin: 1.5em 0 0 0;
+}
+img {
+ max-width: 100%;
+ border-radius: 20px;
+}
+
+/* define los colores cuando la pantalla está maximizada*/
+figure {
+ background: #7d3f89;
+ border-radius: 5px;
+ color: rgb(255, 255, 255);
+ margin: 0 15px 15px 0;
+ padding: 10px;
+ text-align: center;
+ 
+}
+
+
+figcaption {
+ font-size: 25px;
+}
+
+/* define los colores cuando la pantalla está en 794px*/
+@media screen and (min-width: 794px) {
+ body {
+ background: rgba(0,0,255,.2);
+ margin: 25px 6%;
+ }
+ figure {
+ float: left;
+ width: 45%;
+ margin-right: 4.5%;
+    background: rgb(198, 27, 112);
+    border-radius: 10px;
+    color: rgb(210, 224, 13);
+    margin: 0 15px 15px 0;
+    padding: 10px;
+    text-align: center;
+}
+}
+
+/* define los colores cuando la pantalla está en 1020*/
+@media screen and (min-width: 1020px) {
+ body {
+ background: rgba(40, 144, 40, 0.871);
+ margin: 25px 10%;
+ max-width: 1130px;
+ }
+ figure {
+ width: 30%;
+ margin-right: 2.5%;
+ background: rgb(10, 28, 99);
+    border-radius: 10px;
+    color: rgb(254, 254, 254);
+    margin: 0 15px 15px 0;
+    padding: 10px;
+    text-align: center;
+ }
+}
+
+/* define los colores cuando la pantalla está en 1500px*/
+@media screen and (min-width: 1500px) {
+    body {
+    background: rgba(168, 20, 166, 0.2);
+    margin: 25px 10%;
+    max-width: 1130px;
+    }
+    figure {
+    width: 30%;
+    margin-right: 2.5%;
+    background: rgb(247, 136, 31);
+       border-radius: 10px;
+       color: rgb(59, 21, 21);
+       margin: 0 15px 15px 0;
+       padding: 10px;
+       text-align: center;
+    }
+   
+    /* alinea el texto al centro*/
+   h1.subtitulo {
+      text-align: center;
+   }
+   h2.subtitulo {
+      text-align: center;
+   }
+   
+   p.center{
+      text-align: center;
+      
+   }
+}
